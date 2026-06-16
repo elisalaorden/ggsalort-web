@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GG SALORT | Session Drummer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Oswald',sans-serif;
+background:#0a0a0a;
+color:white;
+line-height:1.6;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.75)),
+url('hero.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero-content h1{
+font-size:5rem;
+letter-spacing:6px;
+margin-bottom:10px;
+}
+
+.hero-content p{
+font-size:1.3rem;
+opacity:.9;
+margin-bottom:25px;
+}
+
+.buttons{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 22px;
+border:1px solid #fff;
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+.btn:hover{
+background:white;
+color:black;
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:80px 25px;
+}
+
+h2{
+font-size:2.2rem;
+margin-bottom:20px;
+letter-spacing:2px;
+}
+
+.about p{
+font-size:1.1rem;
+opacity:.85;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.feature{
+border:1px solid #333;
+padding:20px;
+text-align:center;
+}
+
+.contact-form{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:30px;
+}
+
+input, textarea{
+padding:15px;
+background:#111;
+border:1px solid #444;
+color:white;
+font-family:inherit;
+}
+
+textarea{
+height:150px;
+}
+
+button{
+padding:15px;
+background:white;
+color:black;
+border:none;
+cursor:pointer;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:40px;
+border-top:1px solid #222;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:3rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+
+<div class="hero-content">
+
+<h1>GG SALORT</h1>
+
+<p>SESSION DRUMMER • REMOTE RECORDING • PRODUCER</p>
+
+<div class="buttons">
+
+<a class="btn" target="_blank"
+href="https://open.spotify.com/playlist/3e8tx6hm1itbmbt7bjm1Ik?si=d8c493880a8047ab">
+GG ON THE DRUMS
+</a>
+
+<a class="btn" target="_blank"
+href="https://open.spotify.com/intl-es/artist/1N3FLR7oyN2aVss1QedLOi?si=5vsRpeJPTgemUE0JDreCjw">
+SPOTIFY ARTIST
+</a>
+
+<a class="btn" target="_blank"
+href="https://youtube.com/@ggsalort8156?si=pN8rly4iNiLkYSyi">
+YOUTUBE
+</a>
+
+<a class="btn" target="_blank"
+href="https://ggsamplepack.mitiendanube.com/">
+SAMPLE PACKS
+</a>
+
+<a class="btn" target="_blank"
+href="https://www.instagram.com/guillesalort/">
+INSTAGRAM
+</a>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="about">
+
+<h2>REMOTE DRUM RECORDING</h2>
+
+<p>
+Baterista, productor y músico de sesión especializado en grabaciones remotas.
+Disponible para grabar baterías profesionales para artistas, bandas y productores de todo el mundo.
+</p>
+
+<div class="features">
+
+<div class="feature">
+MULTITRACK WAV
+</div>
+
+<div class="feature">
+EDICIÓN PROFESIONAL
+</div>
+
+<div class="feature">
+ENTREGA ONLINE
+</div>
+
+<div class="feature">
+ROCK • POP • INDIE • METAL
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>CONTACTO</h2>
+
+<form class="contact-form"
+action="mailto:salortmusica@gmail.com"
+method="post"
+enctype="text/plain">
+
+<input type="text" name="Nombre" placeholder="Nombre" required>
+
+<input type="email" name="Email" placeholder="Email" required>
+
+<input type="text" name="Proyecto" placeholder="Proyecto / Banda">
+
+<textarea name="Mensaje" placeholder="Contame sobre tu proyecto"></textarea>
+
+<button type="submit">
+SOLICITAR PRESUPUESTO
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>WhatsApp: +54 11 6474 9704</p>
+
+<p>salortmusica@gmail.com</p>
+
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/541164749704"
+target="_blank">
+WhatsApp
+</a>
+
+</body>
+</html>
